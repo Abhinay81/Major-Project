@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Star Rating Form</title>
+    <link href="style2.css" rel="stylesheet">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1 class="topheading">Star Rating Form</h1>
+        </header>
+        <form id="form" class="dataform" method="post">
+            <!-- Question 1 -->
+            <div class="card">
+                <p><strong>EXT1</strong>: I am the life of the party</p>
+                <div class="rating">
+                    <input type="radio" id="Q1_star5" name="Q1_rating" value="5"><label for="Q1_star5">★</label>
+                    <input type="radio" id="Q1_star4" name="Q1_rating" value="4"><label for="Q1_star4">★</label>
+                    <input type="radio" id="Q1_star3" name="Q1_rating" value="3"><label for="Q1_star3">★</label>
+                    <input type="radio" id="Q1_star2" name="Q1_rating" value="2"><label for="Q1_star2">★</label>
+                    <input type="radio" id="Q1_star1" name="Q1_rating" value="1"><label for="Q1_star1">★</label>
+                </div>
+                <p class="selected-rating" id="Q1_selected">Selected: None</p>
+            </div>
+
+            <!-- Question 2 -->
+            <div class="card">
+                <p><strong>EXT2</strong>: I don't talk a lot</p>
+                <div class="rating">
+                    <input type="radio" id="Q2_star5" name="Q2_rating" value="5"><label for="Q2_star5">★</label>
+                    <input type="radio" id="Q2_star4" name="Q2_rating" value="4"><label for="Q2_star4">★</label>
+                    <input type="radio" id="Q2_star3" name="Q2_rating" value="3"><label for="Q2_star3">★</label>
+                    <input type="radio" id="Q2_star2" name="Q2_rating" value="2"><label for="Q2_star2">★</label>
+                    <input type="radio" id="Q2_star1" name="Q2_rating" value="1"><label for="Q2_star1">★</label>
+                </div>
+                <p class="selected-rating" id="Q2_selected">Selected: None</p>
+            </div>
+
+            <!-- Question 3 -->
+            <div class="card">
+                <p><strong>EXT3</strong>: I feel comfortable around people</p>
+                <div class="rating">
+                    <input type="radio" id="Q3_star5" name="Q3_rating" value="5"><label for="Q3_star5">★</label>
+                    <input type="radio" id="Q3_star4" name="Q3_rating" value="4"><label for="Q3_star4">★</label>
+                    <input type="radio" id="Q3_star3" name="Q3_rating" value="3"><label for="Q3_star3">★</label>
+                    <input type="radio" id="Q3_star2" name="Q3_rating" value="2"><label for="Q3_star2">★</label>
+                    <input type="radio" id="Q3_star1" name="Q3_rating" value="1"><label for="Q3_star1">★</label>
+                </div>
+                <p class="selected-rating" id="Q3_selected">Selected: None</p>
+            </div>
+
+            <!-- Question 4 -->
+            <div class="card">
+                <p><strong>EXT4</strong>: I keep in the background</p>
+                <div class="rating">
+                    <input type="radio" id="Q4_star5" name="Q4_rating" value="5"><label for="Q4_star5">★</label>
+                    <input type="radio" id="Q4_star4" name="Q4_rating" value="4"><label for="Q4_star4">★</label>
+                    <input type="radio" id="Q4_star3" name="Q4_rating" value="3"><label for="Q4_star3">★</label>
+                    <input type="radio" id="Q4_star2" name="Q4_rating" value="2"><label for="Q4_star2">★</label>
+                    <input type="radio" id="Q4_star1" name="Q4_rating" value="1"><label for="Q4_star1">★</label>
+                </div>
+                <p class="selected-rating" id="Q4_selected">Selected: None</p>
+            </div>
+
+            <!-- Question 5 -->
+            <div class="card">
+                <p><strong>EXT5</strong>: I start conversations</p>
+                <div class="rating">
+                    <input type="radio" id="Q5_star5" name="Q5_rating" value="5"><label for="Q5_star5">★</label>
+                    <input type="radio" id="Q5_star4" name="Q5_rating" value="4"><label for="Q5_star4">★</label>
+                    <input type="radio" id="Q5_star3" name="Q5_rating" value="3"><label for="Q5_star3">★</label>
+                    <input type="radio" id="Q5_star2" name="Q5_rating" value="2"><label for="Q5_star2">★</label>
+                    <input type="radio" id="Q5_star1" name="Q5_rating" value="1"><label for="Q5_star1">★</label>
+                </div>
+                <p class="selected-rating" id="Q5_selected">Selected: None</p>
+            </div>
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
